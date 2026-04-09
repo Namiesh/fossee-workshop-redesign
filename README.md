@@ -14,6 +14,13 @@ This project is a redesigned version of the FOSSEE Workshop Booking website buil
 **After:**
 ![Login After](screenshots/after/login.png)
 
+### Forgot Password Page
+**Before:**
+![forgot-password Before](screenshots/before/forgot-password.png)
+
+**After:**
+![forgot-password After](screenshots/after/forgot-password.png)
+
 ### Home Page
 **Before:**
 ![Home Before](screenshots/before/login.png)
