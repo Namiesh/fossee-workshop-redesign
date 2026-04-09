@@ -1,0 +1,97 @@
+.home-container {
+  min-height: calc(100vh - 64px);
+}
+
+.hero {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  color: white;
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  letter-spacing: -1px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 32px;
+}
+
+.hero .btn-primary {
+  width: auto;
+  padding: 16px 40px;
+  font-size: 17px;
+  background: white;
+  color: #1a73e8;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.hero .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.workshops-section {
+  padding: 60px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.workshops-section h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #1a1a2e;
+}
+
+.workshops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.workshop-card {
+  background: white;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(26, 115, 232, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #e8f0fe;
+}
+
+.workshop-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(26, 115, 232, 0.2);
+}
+
+.workshop-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 12px;
+}
+
+.workshop-card p {
+  color: #666;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .workshops-section {
+    padding: 40px 16px;
+  }
+}
